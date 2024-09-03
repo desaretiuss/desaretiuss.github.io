@@ -12,11 +12,6 @@ body {
   height: 100%;
 }
 
-.content {
-  padding: 2em 3em;
-  margin-bottom: 3em;
-}
-
 .clearfix {
   &:before {
     content: " ";
@@ -60,7 +55,7 @@ hr {
 }
 
 .link {
-  color: $link-color;
+  color: $blue-color;
   padding-bottom: .05em;
   border-bottom: 2px solid transparent;
 
@@ -69,7 +64,7 @@ hr {
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $link-color;
+    border-bottom: 2px solid $blue-color;
   }
 }
 
