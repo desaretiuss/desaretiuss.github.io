@@ -1,40 +1,42 @@
 // Typography
 @import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
-$base-font-family: 'Overpass Mono', monospace;
-$heading-font-family: $base-font-family;
+$base-font-family:  'Raleway', sans-serif;
+$heading-font-family:  'Raleway', sans-serif;
 
 // Font Sizes
 $base-font-size: 1em;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.7; // Slightly increased for better readability on dark backgrounds
+$heading-line-height: 1.3; // Increased to give headings more breathing space
 
 // Other Sizes
-$base-border-radius: .52em;
-$base-spacing: $base-line-height * 1em;
+$base-border-radius: 0.4em; // More subtle rounding for a modern look
+$base-spacing: $base-line-height * 1.2em; // Increased spacing for better content separation
 $small-spacing: $base-spacing / 2;
-$base-z-index: 0;
+$base-z-index: 10; // Increased z-index to ensure layered elements are handled properly in a more interactive layout
+
+// Font Colors
+$base-font-color: #333333;
+
+// Link Colors
+$link-color: #007acc;
 
 // Colors
-$primary-color: red;
-$action-color: red;
-$white-color: red;
-$black-color: red;
-$blue-color: red;
+$action-color: $base-font-color;
+$white-color: #fff;
+$black-color: #000;
+$blue-color: #0086B3;
 $dark-gray-color: #333;
 $medium-gray-color: #999;
 $light-gray-color: #ccc;
-
-// Font Colors
-$base-font-color: rgba($dark-gray-color, .8);
 
 // Border
 $base-border-color: $light-gray-color;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: red;
+$base-background-color: #FDDB29;
 $secondary-background-color: tint($base-border-color, 80%);
 
 // Forms
