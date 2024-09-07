@@ -1,10 +1,6 @@
 
 7
 Gemfile,d\e\de3150c01c3a946a6168173c4116741379fe3579
-=
-projects.html,a\a\aa39e6d4c7c58102131137bd5a2c185f2fea6ab6
-M
-_posts/2021-11-18-teaching.md,c\8\c81d568bbeaac098b8c567730aad39361de3fcee
 J
 _posts/2023-02-16-books.md,9\5\95c9fd29e7913bf3a406cfcc750ea1e8cceccca1
 H
